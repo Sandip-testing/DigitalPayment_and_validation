@@ -1,0 +1,20 @@
+2026-04-21 16:08:28,787 | INFO | Log file created: reports/logs\test_execution_20260421_160828.log
+2026-04-21 16:08:28,795 | INFO | Log file created: reports/logs\test_execution_20260421_160828.log
+2026-04-21 16:08:28,796 | INFO | Log file created: reports/logs\test_execution_20260421_160828.log
+2026-04-21 16:08:28,801 | INFO | Log file created: reports/logs\test_execution_20260421_160828.log
+2026-04-21 16:08:28,806 | INFO | Validating transaction in DB | TXN_ID: TXN12345
+2026-04-21 16:08:29,195 | INFO | DB Validation Success | Status: SUCCESS
+2026-04-21 16:08:29,204 | INFO | Starting test: test_card_payment
+2026-04-21 16:08:29,205 | INFO | Initiating card payment | Amount: 500
+2026-04-21 16:08:29,206 | INFO | Payment Success | TXN_ID: TXN12345
+2026-04-21 16:08:29,207 | INFO | Validating transaction in DB | TXN_ID: TXN12345
+2026-04-21 16:08:29,253 | INFO | DB Validation Success | Status: SUCCESS
+2026-04-21 16:08:29,253 | INFO | Test Passed: test_card_payment
+2026-04-21 16:08:29,262 | INFO | Starting test: test_double_debit_refund
+2026-04-21 16:08:29,262 | INFO | Initiating card payment | Amount: 100
+2026-04-21 16:08:29,263 | INFO | Payment Success | TXN_ID: TXN12345
+2026-04-21 16:08:29,263 | INFO | Initiating card payment | Amount: 100
+2026-04-21 16:08:29,264 | INFO | Payment Success | TXN_ID: TXN12345
+2026-04-21 16:08:29,264 | INFO | Duplicate transaction detected
+2026-04-21 16:08:29,264 | INFO | Refund successful
+2026-04-21 16:08:29,265 | INFO | Test Completed: test_double_debit_refund
